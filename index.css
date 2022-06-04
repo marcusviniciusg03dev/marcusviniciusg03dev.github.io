@@ -1,5 +1,6 @@
 html {
     min-height: 100vh;
+    overflow-x: hidden;
     font: 1rem Montserrat, sans-serif;
     color: rgb(235, 235, 235);
 }
