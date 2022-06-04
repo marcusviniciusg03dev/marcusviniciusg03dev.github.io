@@ -1,6 +1,6 @@
 html {
     min-height: 100vh;
-    font: 1.1rem Montserrat, sans-serif;
+    font: 1rem Montserrat, sans-serif;
     color: rgb(235, 235, 235);
 }
 
@@ -16,5 +16,6 @@ i, button, a {
 }
 
 a {
-    color: rgb(235, 235, 235); 
+    color: rgb(235, 235, 235);
+    text-decoration: none;
 }
