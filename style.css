@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 0 1rem;
 }
 
 #page-header > nav > a {
@@ -20,7 +21,7 @@
     background-color: #060e1a;
     height: 85vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 3rem;
 }
@@ -74,7 +75,7 @@
 }
 
 .tech > img {
-    height: 4rem;
+    height: 2rem;
 }
 
 .icon {
@@ -88,12 +89,20 @@
 @media only screen and (max-width: 1000px) {
     #about-me {
         flex-direction: column-reverse;
-        padding: 1rem;
+        padding: 2rem;
     }
 
     #technologies-section {
         grid-auto-flow: column;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: 100%;
+    }
+
+    #page-header {
+        justify-content: space-between;
+    }
+
+    .icon {
+        margin: 0 .1rem;
     }
 }
